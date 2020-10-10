@@ -27,7 +27,7 @@ public class CommonFunctions {
 	}
 
 	@BeforeSuite
-	public void launchTheBrowser() throws IOException {
+	public void launchTheBrowser() throws Exception {
 		loadPropertyFile();
 		String browser = properties.getProperty("browser");
 		String driverLocation = properties.getProperty("driverLocation");
