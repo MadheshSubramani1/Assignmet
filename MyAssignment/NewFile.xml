@@ -4,7 +4,7 @@
 	<test name="VerifytheLoginPage">
 		<classes>
 
-			<class name="TestCases.VerifyLoginPage"></class>
+			<class name="TestCase.VerifyLoginPage"></class>
 
 		</classes>
 
